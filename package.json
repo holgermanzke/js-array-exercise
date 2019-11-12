@@ -1,0 +1,32 @@
+{
+  "name": "js-array-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html",
+    "test": "jest",
+    "test-watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holgermanzke/js-array-exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/holgermanzke/js-array-exercise/issues"
+  },
+  "homepage": "https://github.com/holgermanzke/js-array-exercise#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.6.0",
+    "jest": "^24.9.0",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.23.3"
+  }
+}
